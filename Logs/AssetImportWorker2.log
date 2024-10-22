@@ -1,0 +1,1222 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.46f1 (8e9b8558c41a) revision 9345925'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ja' Physical Memory: 15610 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Product/Unity/StandingWorld
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59608
+Successfully changed project path to: C:/Product/Unity/StandingWorld
+C:/Product/Unity/StandingWorld
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1520]  Target information:
+
+Player connection [1520]  * "[IP] 192.168.0.58 [Port] 0 [Flags] 2 [Guid] 4160939199 [EditorId] 4160939199 [Version] 1048832 [Id] WindowsEditor(7,note202408) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [1520] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [1520] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 601.97 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.46f1 (8e9b8558c41a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Product/Unity/StandingWorld/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6081
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006831 seconds.
+- Loaded All Assemblies, in  1.264 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 295 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.613 seconds
+Domain Reload Profiling: 1876ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (299ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (775ms)
+		LoadAssemblies (109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (773ms)
+			TypeCache.Refresh (772ms)
+				TypeCache.ScanAssembly (759ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (613ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (373ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.463 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.074 seconds
+Domain Reload Profiling: 2534ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (1164ms)
+		LoadAssemblies (455ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (815ms)
+			TypeCache.Refresh (759ms)
+				TypeCache.ScanAssembly (653ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1075ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (875ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (655ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 7.26 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6967 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (1.8 MB). Loaded Objects now: 7453.
+Memory consumption went from 291.6 MB to 289.9 MB.
+Total: 5.948000 ms (FindLiveObjects: 0.545000 ms CreateObjectMapping: 0.239800 ms MarkObjects: 4.586200 ms  DeleteObjects: 0.575500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/groundPlaneGenerator.cs: 824cfbfd90c80682e3c38208b6a88b94 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TreeGrowingGameManager.cs: b335c53bcb5e26fb2bd6f7eafab6449b -> 37c97f8a22737d5a3bf204f13270e307
+  custom:scripting/monoscript/fileName/AudioManager.cs: 0aef3caba4c1c1b0bc8bd1dca2fef31d -> e8310be4479956b7ccf5d41d9f0f6e53
+  custom:scripting/monoscript/fileName/WebCameraDisplay.cs: 6cb1e51b2fb3bb7d46ceff914ec07a98 -> 5d07dedf3f970537853d06cf192d9494
+  custom:scripting/monoscript/fileName/FlagEnumAttributeDrawer.cs: 671fa9a68f9f21f6b34d51277df4f5fd -> 39756168e5c5659b1ba6cf525af8e4a7
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/StageController.cs: 51a584245a94b36bf95ec5aa6f143806 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:scripting/monoscript/fileName/3DPlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: 631518805e498f605340989c6255f0ae -> bd8be3102d90dc7625e90c699b9ce143
+  custom:scripting/monoscript/fileName/EnemyUFO.cs: c9fbb69d8539baf099226189205e18b8 -> 93e1c5f136b3fd1602be2bb19f523ccd
+  custom:scripting/monoscript/fileName/TreeGrowEnemy.cs: 7b17fd7e35c1a809be7fbd8a33a5eb8e -> 3a73412f44bfbad99110aacf21e20bd0
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: e5660c81aeb5669d6f09aa75f88fb408 -> 78e2e6573322fcc55af450266306de6e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeHelper.cs: 471412d4702a9bd89b7b2c8520971a1b -> a4d58c8c0aa0d81ba3ca1f8f244f264e
+  custom:scripting/monoscript/fileName/CoinGetter.cs: 3372e4496adf0fea0a315463a38bd79c -> 3d6c24f5fd953e028cdb31f9e1fa5bf9
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GroundPlaneGenerator.cs: 78760a5eda0f63e89c8261e046fa939a -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: 9641240c5357cee7cf3b5385d31793ad -> ec7e447c8320099965c5f3bd81473d66
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/beltController.cs: d5447ad7e4db5ce9bb31a7848c0ea036 -> 
+  custom:scripting/monoscript/fileName/ExploreGameGoalDimentionalLift.cs: 9c2ab3de718019f18303a5a524852000 -> f04c67676818c1a9de96758ab0f7c8f1
+  custom:scripting/monoscript/fileName/ExploreGameManager.cs: 0d4d24d8aa8fa59eb3a64211a44ccc2e -> a5b421e8fdf625c569c2b93b60fe8386
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WaterVolumeTransforms.cs: c2435ef1e27b377f8545d22e3effcd7c -> 7e7ff907458764574f8b4636d8406e3e
+  custom:scripting/monoscript/fileName/CheckPointController.cs: 21366e98fd2751c5950c768f314907ec -> e5355b76b39e4561031b9e28ef761ebf
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/SingletonObject.cs: 312225ad2b80b93381977a206041e372 -> 4884d291e1fd234b2e8987ac477a4c1e
+  custom:scripting/monoscript/fileName/kanbanController.cs: 0beab0e0d7ea39c245d2dd20c71b00b3 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeBase.cs: 6078167b471cf5dd2c505734501116bc -> 5b3e1dfbc4070397f7e81d6a1d87f2aa
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FlagEnumAttribute.cs: 953b9f0dce3220fa95ce950df5750dc2 -> f9c53708b2edee265e6d7f7be304b71c
+  custom:scripting/monoscript/fileName/WateverVolumeFloater.cs: f5baaa2cb2b9ffe4f7cdd44997796d50 -> 6b0e4e4a788d1123c17d4bf1fdee4df6
+  custom:scripting/monoscript/fileName/jumPlateController.cs: 7ce5074295808d471b18329f0400ca94 -> 
+  custom:scripting/monoscript/fileName/SelfRotation.cs: 6f163a43d6cf58ed55d3d2a6e9c0f200 -> 7e246db65b3b22dac5677a97904cfe89
+  custom:scripting/monoscript/fileName/FadeController.cs: 7a9ce674383cacf573b010219c5e8c1f -> ffaf7436b7e8375205f5e33569dc4bd8
+  custom:scripting/monoscript/fileName/EnemyPlane.cs: 362e5f00b165b8e1bb50a83e5edeef8e -> 904a741335ab92d2b868db42981cd164
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CustomSceneManager.cs: c10e412c3811fbb9318979ad06736d6b -> 1b7fd7839353e3162cde6aa6074ee6f5
+  custom:scripting/monoscript/fileName/HomePlayerController.cs: ad26dad37f5371b4a323257ed86b89a4 -> 983e1af44f43bf74fe0548331aa3a307
+  custom:scripting/monoscript/fileName/EnemyBird.cs: 9ea2fe694d0a77d82422883b02371188 -> 8891e7c0c4824afc3a621ab47e019224
+  custom:scripting/monoscript/fileName/WaterVolumeBox.cs: 6dc25fc0bc3d8090d67b574588c57fd8 -> f4c4fe2252d7747d9ce426fae9a6c73b
+========================================================================
+Received Import Request.
+  Time since last request: 694423.721077 seconds.
+  path: Assets/Resources/3dModel/HomeCamera/HomeCamera.anim
+  artifactKey: Guid(a582ee6315a126e42bad658d26268e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3dModel/HomeCamera/HomeCamera.anim using Guid(a582ee6315a126e42bad658d26268e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b865e1a56afa79fc31af64c628e24b07') in 0.023092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.003428 seconds.
+  path: Assets/Project/Program/HomeScene/3dModel
+  artifactKey: Guid(962c8a380aec8c541a40d17ea8a4a4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Program/HomeScene/3dModel using Guid(962c8a380aec8c541a40d17ea8a4a4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '10d1e6af4fffecea3adc646e25607317') in 0.000979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.323428 seconds.
+  path: Assets/Project/Program/ExploreGameScene/3dModel
+  artifactKey: Guid(4a1b3f1e56f3dbb45a4959c48d61730d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Program/ExploreGameScene/3dModel using Guid(4a1b3f1e56f3dbb45a4959c48d61730d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd61a4e34f57f6c3d04c439839ec27b33') in 0.000568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.820762 seconds.
+  path: Assets/Project/Program/ExploreGameScene/3dModel/Coin/CoinRotation.anim
+  artifactKey: Guid(9f900bc141ecfdf458ed2239781987f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Program/ExploreGameScene/3dModel/Coin/CoinRotation.anim using Guid(9f900bc141ecfdf458ed2239781987f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd4ec7c41545f8290565bf2f772bc0742') in 0.002444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.610 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.060 seconds
+Domain Reload Profiling: 2669ms
+	BeginReloadAssembly (1095ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (886ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (423ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (68ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1060ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (794ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (576ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 10.01 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.8 MB). Loaded Objects now: 7472.
+Memory consumption went from 247.0 MB to 245.3 MB.
+Total: 5.281400 ms (FindLiveObjects: 0.633600 ms CreateObjectMapping: 0.299000 ms MarkObjects: 3.757500 ms  DeleteObjects: 0.589600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/groundPlaneGenerator.cs: 824cfbfd90c80682e3c38208b6a88b94 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TreeGrowingGameManager.cs: b335c53bcb5e26fb2bd6f7eafab6449b -> 37c97f8a22737d5a3bf204f13270e307
+  custom:scripting/monoscript/fileName/AudioManager.cs: 0aef3caba4c1c1b0bc8bd1dca2fef31d -> e8310be4479956b7ccf5d41d9f0f6e53
+  custom:scripting/monoscript/fileName/WebCameraDisplay.cs: 6cb1e51b2fb3bb7d46ceff914ec07a98 -> 5d07dedf3f970537853d06cf192d9494
+  custom:scripting/monoscript/fileName/FlagEnumAttributeDrawer.cs: 671fa9a68f9f21f6b34d51277df4f5fd -> 39756168e5c5659b1ba6cf525af8e4a7
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/StageController.cs: 51a584245a94b36bf95ec5aa6f143806 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:scripting/monoscript/fileName/3DPlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: 631518805e498f605340989c6255f0ae -> bd8be3102d90dc7625e90c699b9ce143
+  custom:scripting/monoscript/fileName/EnemyUFO.cs: c9fbb69d8539baf099226189205e18b8 -> 93e1c5f136b3fd1602be2bb19f523ccd
+  custom:scripting/monoscript/fileName/TreeGrowEnemy.cs: 7b17fd7e35c1a809be7fbd8a33a5eb8e -> 3a73412f44bfbad99110aacf21e20bd0
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: e5660c81aeb5669d6f09aa75f88fb408 -> 78e2e6573322fcc55af450266306de6e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeHelper.cs: 471412d4702a9bd89b7b2c8520971a1b -> a4d58c8c0aa0d81ba3ca1f8f244f264e
+  custom:scripting/monoscript/fileName/CoinGetter.cs: 3372e4496adf0fea0a315463a38bd79c -> 3d6c24f5fd953e028cdb31f9e1fa5bf9
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GroundPlaneGenerator.cs: 78760a5eda0f63e89c8261e046fa939a -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: 9641240c5357cee7cf3b5385d31793ad -> ec7e447c8320099965c5f3bd81473d66
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/beltController.cs: d5447ad7e4db5ce9bb31a7848c0ea036 -> 
+  custom:scripting/monoscript/fileName/ExploreGameGoalDimentionalLift.cs: 9c2ab3de718019f18303a5a524852000 -> f04c67676818c1a9de96758ab0f7c8f1
+  custom:scripting/monoscript/fileName/ExploreGameManager.cs: 0d4d24d8aa8fa59eb3a64211a44ccc2e -> a5b421e8fdf625c569c2b93b60fe8386
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WaterVolumeTransforms.cs: c2435ef1e27b377f8545d22e3effcd7c -> 7e7ff907458764574f8b4636d8406e3e
+  custom:scripting/monoscript/fileName/CheckPointController.cs: 21366e98fd2751c5950c768f314907ec -> e5355b76b39e4561031b9e28ef761ebf
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/SingletonObject.cs: 312225ad2b80b93381977a206041e372 -> 4884d291e1fd234b2e8987ac477a4c1e
+  custom:scripting/monoscript/fileName/kanbanController.cs: 0beab0e0d7ea39c245d2dd20c71b00b3 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeBase.cs: 6078167b471cf5dd2c505734501116bc -> 5b3e1dfbc4070397f7e81d6a1d87f2aa
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FlagEnumAttribute.cs: 953b9f0dce3220fa95ce950df5750dc2 -> f9c53708b2edee265e6d7f7be304b71c
+  custom:scripting/monoscript/fileName/WateverVolumeFloater.cs: f5baaa2cb2b9ffe4f7cdd44997796d50 -> 6b0e4e4a788d1123c17d4bf1fdee4df6
+  custom:scripting/monoscript/fileName/jumPlateController.cs: 7ce5074295808d471b18329f0400ca94 -> 
+  custom:scripting/monoscript/fileName/SelfRotation.cs: 6f163a43d6cf58ed55d3d2a6e9c0f200 -> 7e246db65b3b22dac5677a97904cfe89
+  custom:scripting/monoscript/fileName/FadeController.cs: 7a9ce674383cacf573b010219c5e8c1f -> ffaf7436b7e8375205f5e33569dc4bd8
+  custom:scripting/monoscript/fileName/EnemyPlane.cs: 362e5f00b165b8e1bb50a83e5edeef8e -> 904a741335ab92d2b868db42981cd164
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CustomSceneManager.cs: c10e412c3811fbb9318979ad06736d6b -> 1b7fd7839353e3162cde6aa6074ee6f5
+  custom:scripting/monoscript/fileName/HomePlayerController.cs: ad26dad37f5371b4a323257ed86b89a4 -> 983e1af44f43bf74fe0548331aa3a307
+  custom:scripting/monoscript/fileName/EnemyBird.cs: 9ea2fe694d0a77d82422883b02371188 -> 8891e7c0c4824afc3a621ab47e019224
+  custom:scripting/monoscript/fileName/WaterVolumeBox.cs: 6dc25fc0bc3d8090d67b574588c57fd8 -> f4c4fe2252d7747d9ce426fae9a6c73b
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.646 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.818 seconds
+Domain Reload Profiling: 2461ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (401ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (63ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1819ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (812ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (594ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 7.18 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.8 MB). Loaded Objects now: 7489.
+Memory consumption went from 247.0 MB to 245.3 MB.
+Total: 6.975100 ms (FindLiveObjects: 0.674000 ms CreateObjectMapping: 0.389100 ms MarkObjects: 5.095600 ms  DeleteObjects: 0.813700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/groundPlaneGenerator.cs: 824cfbfd90c80682e3c38208b6a88b94 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TreeGrowingGameManager.cs: b335c53bcb5e26fb2bd6f7eafab6449b -> 37c97f8a22737d5a3bf204f13270e307
+  custom:scripting/monoscript/fileName/AudioManager.cs: 0aef3caba4c1c1b0bc8bd1dca2fef31d -> e8310be4479956b7ccf5d41d9f0f6e53
+  custom:scripting/monoscript/fileName/WebCameraDisplay.cs: 6cb1e51b2fb3bb7d46ceff914ec07a98 -> 5d07dedf3f970537853d06cf192d9494
+  custom:scripting/monoscript/fileName/FlagEnumAttributeDrawer.cs: 671fa9a68f9f21f6b34d51277df4f5fd -> 39756168e5c5659b1ba6cf525af8e4a7
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/StageController.cs: 51a584245a94b36bf95ec5aa6f143806 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:scripting/monoscript/fileName/3DPlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: 631518805e498f605340989c6255f0ae -> bd8be3102d90dc7625e90c699b9ce143
+  custom:scripting/monoscript/fileName/EnemyUFO.cs: c9fbb69d8539baf099226189205e18b8 -> 93e1c5f136b3fd1602be2bb19f523ccd
+  custom:scripting/monoscript/fileName/TreeGrowEnemy.cs: 7b17fd7e35c1a809be7fbd8a33a5eb8e -> 3a73412f44bfbad99110aacf21e20bd0
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: e5660c81aeb5669d6f09aa75f88fb408 -> 78e2e6573322fcc55af450266306de6e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeHelper.cs: 471412d4702a9bd89b7b2c8520971a1b -> a4d58c8c0aa0d81ba3ca1f8f244f264e
+  custom:scripting/monoscript/fileName/CoinGetter.cs: 3372e4496adf0fea0a315463a38bd79c -> 3d6c24f5fd953e028cdb31f9e1fa5bf9
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GroundPlaneGenerator.cs: 78760a5eda0f63e89c8261e046fa939a -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: 9641240c5357cee7cf3b5385d31793ad -> ec7e447c8320099965c5f3bd81473d66
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/beltController.cs: d5447ad7e4db5ce9bb31a7848c0ea036 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 1489b3d2475e9ec0f6db7e5b6829d77f -> 8c6b9e3b254a33405634ce9e6052deae
+  custom:scripting/monoscript/fileName/ExploreGameGoalDimentionalLift.cs: 9c2ab3de718019f18303a5a524852000 -> f04c67676818c1a9de96758ab0f7c8f1
+  custom:scripting/monoscript/fileName/ExploreGameManager.cs: 0d4d24d8aa8fa59eb3a64211a44ccc2e -> a5b421e8fdf625c569c2b93b60fe8386
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WaterVolumeTransforms.cs: c2435ef1e27b377f8545d22e3effcd7c -> 7e7ff907458764574f8b4636d8406e3e
+  custom:scripting/monoscript/fileName/CheckPointController.cs: 21366e98fd2751c5950c768f314907ec -> e5355b76b39e4561031b9e28ef761ebf
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/SingletonObject.cs: 312225ad2b80b93381977a206041e372 -> 4884d291e1fd234b2e8987ac477a4c1e
+  custom:scripting/monoscript/fileName/kanbanController.cs: 0beab0e0d7ea39c245d2dd20c71b00b3 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeBase.cs: 6078167b471cf5dd2c505734501116bc -> 5b3e1dfbc4070397f7e81d6a1d87f2aa
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/HomeGameObjectManager.cs: 11f44095410d3bcbfe2c2f7b258294d5 -> 3e130cee87f99bdd40e563b836331ebb
+  custom:scripting/monoscript/fileName/FlagEnumAttribute.cs: 953b9f0dce3220fa95ce950df5750dc2 -> f9c53708b2edee265e6d7f7be304b71c
+  custom:scripting/monoscript/fileName/WateverVolumeFloater.cs: f5baaa2cb2b9ffe4f7cdd44997796d50 -> 6b0e4e4a788d1123c17d4bf1fdee4df6
+  custom:scripting/monoscript/fileName/jumPlateController.cs: 7ce5074295808d471b18329f0400ca94 -> 
+  custom:scripting/monoscript/fileName/SelfRotation.cs: 6f163a43d6cf58ed55d3d2a6e9c0f200 -> 7e246db65b3b22dac5677a97904cfe89
+  custom:scripting/monoscript/fileName/FadeController.cs: 7a9ce674383cacf573b010219c5e8c1f -> ffaf7436b7e8375205f5e33569dc4bd8
+  custom:scripting/monoscript/fileName/EnemyPlane.cs: 362e5f00b165b8e1bb50a83e5edeef8e -> 904a741335ab92d2b868db42981cd164
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CustomSceneManager.cs: c10e412c3811fbb9318979ad06736d6b -> 1b7fd7839353e3162cde6aa6074ee6f5
+  custom:scripting/monoscript/fileName/HomePlayerController.cs: ad26dad37f5371b4a323257ed86b89a4 -> 983e1af44f43bf74fe0548331aa3a307
+  custom:scripting/monoscript/fileName/EnemyBird.cs: 9ea2fe694d0a77d82422883b02371188 -> 8891e7c0c4824afc3a621ab47e019224
+  custom:scripting/monoscript/fileName/WaterVolumeBox.cs: 6dc25fc0bc3d8090d67b574588c57fd8 -> f4c4fe2252d7747d9ce426fae9a6c73b
+========================================================================
+Received Import Request.
+  Time since last request: 701.755158 seconds.
+  path: Assets/Project/Program/HomeScene/Scripts/HomeGameObjects
+  artifactKey: Guid(51bac0b5c131ee34a8053395d56a0bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Program/HomeScene/Scripts/HomeGameObjects using Guid(51bac0b5c131ee34a8053395d56a0bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '37d671b83591232b2f9548a23e1e15f7') in 0.002172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.680 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.931 seconds
+Domain Reload Profiling: 2608ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (398ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (65ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1932ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (884ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (637ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 6.90 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.8 MB). Loaded Objects now: 7506.
+Memory consumption went from 247.0 MB to 245.3 MB.
+Total: 5.233700 ms (FindLiveObjects: 0.679900 ms CreateObjectMapping: 0.498700 ms MarkObjects: 3.427700 ms  DeleteObjects: 0.625800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/groundPlaneGenerator.cs: 824cfbfd90c80682e3c38208b6a88b94 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TreeGrowingGameManager.cs: b335c53bcb5e26fb2bd6f7eafab6449b -> 37c97f8a22737d5a3bf204f13270e307
+  custom:scripting/monoscript/fileName/AudioManager.cs: 0aef3caba4c1c1b0bc8bd1dca2fef31d -> e8310be4479956b7ccf5d41d9f0f6e53
+  custom:scripting/monoscript/fileName/WebCameraDisplay.cs: 6cb1e51b2fb3bb7d46ceff914ec07a98 -> 5d07dedf3f970537853d06cf192d9494
+  custom:scripting/monoscript/fileName/FlagEnumAttributeDrawer.cs: 671fa9a68f9f21f6b34d51277df4f5fd -> 39756168e5c5659b1ba6cf525af8e4a7
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/StageController.cs: 51a584245a94b36bf95ec5aa6f143806 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:scripting/monoscript/fileName/3DPlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: 631518805e498f605340989c6255f0ae -> bd8be3102d90dc7625e90c699b9ce143
+  custom:scripting/monoscript/fileName/EnemyUFO.cs: c9fbb69d8539baf099226189205e18b8 -> 93e1c5f136b3fd1602be2bb19f523ccd
+  custom:scripting/monoscript/fileName/TreeGrowEnemy.cs: 7b17fd7e35c1a809be7fbd8a33a5eb8e -> 3a73412f44bfbad99110aacf21e20bd0
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: e5660c81aeb5669d6f09aa75f88fb408 -> 78e2e6573322fcc55af450266306de6e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeHelper.cs: 471412d4702a9bd89b7b2c8520971a1b -> a4d58c8c0aa0d81ba3ca1f8f244f264e
+  custom:scripting/monoscript/fileName/CoinGetter.cs: 3372e4496adf0fea0a315463a38bd79c -> 3d6c24f5fd953e028cdb31f9e1fa5bf9
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GroundPlaneGenerator.cs: 78760a5eda0f63e89c8261e046fa939a -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: 9641240c5357cee7cf3b5385d31793ad -> ec7e447c8320099965c5f3bd81473d66
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/beltController.cs: d5447ad7e4db5ce9bb31a7848c0ea036 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 2e2ce53aa77c691bcadc3bbfd3d792b5 -> 8c6b9e3b254a33405634ce9e6052deae
+  custom:scripting/monoscript/fileName/ExploreGameGoalDimentionalLift.cs: 738b340d8c5eb786066032318d951b5a -> f04c67676818c1a9de96758ab0f7c8f1
+  custom:scripting/monoscript/fileName/ExploreGameManager.cs: 0d4d24d8aa8fa59eb3a64211a44ccc2e -> a5b421e8fdf625c569c2b93b60fe8386
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WaterVolumeTransforms.cs: c2435ef1e27b377f8545d22e3effcd7c -> 7e7ff907458764574f8b4636d8406e3e
+  custom:scripting/monoscript/fileName/CheckPointController.cs: 21366e98fd2751c5950c768f314907ec -> e5355b76b39e4561031b9e28ef761ebf
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/SingletonObject.cs: 312225ad2b80b93381977a206041e372 -> 4884d291e1fd234b2e8987ac477a4c1e
+  custom:scripting/monoscript/fileName/kanbanController.cs: 0beab0e0d7ea39c245d2dd20c71b00b3 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeBase.cs: 6078167b471cf5dd2c505734501116bc -> 5b3e1dfbc4070397f7e81d6a1d87f2aa
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/HomeGameObjectManager.cs: 9066ecdcde7990a6a191ad46b1b98505 -> 3e130cee87f99bdd40e563b836331ebb
+  custom:scripting/monoscript/fileName/FlagEnumAttribute.cs: 953b9f0dce3220fa95ce950df5750dc2 -> f9c53708b2edee265e6d7f7be304b71c
+  custom:scripting/monoscript/fileName/WateverVolumeFloater.cs: f5baaa2cb2b9ffe4f7cdd44997796d50 -> 6b0e4e4a788d1123c17d4bf1fdee4df6
+  custom:scripting/monoscript/fileName/jumPlateController.cs: 7ce5074295808d471b18329f0400ca94 -> 
+  custom:scripting/monoscript/fileName/SelfRotation.cs: 6f163a43d6cf58ed55d3d2a6e9c0f200 -> 7e246db65b3b22dac5677a97904cfe89
+  custom:scripting/monoscript/fileName/FadeController.cs: 7a9ce674383cacf573b010219c5e8c1f -> ffaf7436b7e8375205f5e33569dc4bd8
+  custom:scripting/monoscript/fileName/EnemyPlane.cs: 362e5f00b165b8e1bb50a83e5edeef8e -> 904a741335ab92d2b868db42981cd164
+  custom:scripting/monoscript/fileName/FloodingManager.cs: d35af5056f65508fc4a9360aecb3c787 -> bb2f1e3f9f4ac92230aa3ce3799a57e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CustomSceneManager.cs: c10e412c3811fbb9318979ad06736d6b -> 1b7fd7839353e3162cde6aa6074ee6f5
+  custom:scripting/monoscript/fileName/HomePlayerController.cs: ad26dad37f5371b4a323257ed86b89a4 -> 983e1af44f43bf74fe0548331aa3a307
+  custom:scripting/monoscript/fileName/EnemyBird.cs: 9ea2fe694d0a77d82422883b02371188 -> 8891e7c0c4824afc3a621ab47e019224
+  custom:scripting/monoscript/fileName/WaterVolumeBox.cs: 6dc25fc0bc3d8090d67b574588c57fd8 -> f4c4fe2252d7747d9ce426fae9a6c73b
+========================================================================
+Received Import Request.
+  Time since last request: 12.848508 seconds.
+  path: Assets/Project/Program/HomeScene/Scripts/HomeGameObjects/FloodingManager.cs
+  artifactKey: Guid(959218d8c149e3a44ab60828b4ae2b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Program/HomeScene/Scripts/HomeGameObjects/FloodingManager.cs using Guid(959218d8c149e3a44ab60828b4ae2b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '303849a048c68fe0d916ddc4622ce476') in 0.010806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.605208 seconds.
+  path: Assets/Project/Program/HomeScene/Scripts/HomeGameObjects/ExploreGame/ExploreGameGoalDimentionalLift.cs
+  artifactKey: Guid(69eb8f316374fa24aaa74fa5ff04e9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Program/HomeScene/Scripts/HomeGameObjects/ExploreGame/ExploreGameGoalDimentionalLift.cs using Guid(69eb8f316374fa24aaa74fa5ff04e9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6a671cf231b7cf13cdcd2560bb850859') in 0.001245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.698 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.852 seconds
+Domain Reload Profiling: 2547ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (392ms)
+		LoadAssemblies (419ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (68ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (846ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (624ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 7.25 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.8 MB). Loaded Objects now: 7523.
+Memory consumption went from 247.0 MB to 245.3 MB.
+Total: 4.632900 ms (FindLiveObjects: 0.525400 ms CreateObjectMapping: 0.254800 ms MarkObjects: 3.358400 ms  DeleteObjects: 0.493200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/groundPlaneGenerator.cs: 824cfbfd90c80682e3c38208b6a88b94 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TreeGrowingGameManager.cs: b335c53bcb5e26fb2bd6f7eafab6449b -> 37c97f8a22737d5a3bf204f13270e307
+  custom:scripting/monoscript/fileName/AudioManager.cs: 0aef3caba4c1c1b0bc8bd1dca2fef31d -> e8310be4479956b7ccf5d41d9f0f6e53
+  custom:scripting/monoscript/fileName/WebCameraDisplay.cs: 6cb1e51b2fb3bb7d46ceff914ec07a98 -> 5d07dedf3f970537853d06cf192d9494
+  custom:scripting/monoscript/fileName/FlagEnumAttributeDrawer.cs: 671fa9a68f9f21f6b34d51277df4f5fd -> 39756168e5c5659b1ba6cf525af8e4a7
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/StageController.cs: 51a584245a94b36bf95ec5aa6f143806 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:scripting/monoscript/fileName/3DPlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: 631518805e498f605340989c6255f0ae -> bd8be3102d90dc7625e90c699b9ce143
+  custom:scripting/monoscript/fileName/EnemyUFO.cs: c9fbb69d8539baf099226189205e18b8 -> 93e1c5f136b3fd1602be2bb19f523ccd
+  custom:scripting/monoscript/fileName/TreeGrowEnemy.cs: 7b17fd7e35c1a809be7fbd8a33a5eb8e -> 3a73412f44bfbad99110aacf21e20bd0
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: e5660c81aeb5669d6f09aa75f88fb408 -> 78e2e6573322fcc55af450266306de6e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeHelper.cs: 471412d4702a9bd89b7b2c8520971a1b -> a4d58c8c0aa0d81ba3ca1f8f244f264e
+  custom:scripting/monoscript/fileName/CoinGetter.cs: 3372e4496adf0fea0a315463a38bd79c -> 3d6c24f5fd953e028cdb31f9e1fa5bf9
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GroundPlaneGenerator.cs: 78760a5eda0f63e89c8261e046fa939a -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: 9641240c5357cee7cf3b5385d31793ad -> ec7e447c8320099965c5f3bd81473d66
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/beltController.cs: d5447ad7e4db5ce9bb31a7848c0ea036 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: a10c617f25c4d59b2786c54ac5fe303d -> 8c6b9e3b254a33405634ce9e6052deae
+  custom:scripting/monoscript/fileName/ExploreGameGoalDimentionalLift.cs: 738b340d8c5eb786066032318d951b5a -> f04c67676818c1a9de96758ab0f7c8f1
+  custom:scripting/monoscript/fileName/ExploreGameManager.cs: 0d4d24d8aa8fa59eb3a64211a44ccc2e -> a5b421e8fdf625c569c2b93b60fe8386
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WaterVolumeTransforms.cs: c2435ef1e27b377f8545d22e3effcd7c -> 7e7ff907458764574f8b4636d8406e3e
+  custom:scripting/monoscript/fileName/CheckPointController.cs: 21366e98fd2751c5950c768f314907ec -> e5355b76b39e4561031b9e28ef761ebf
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/SingletonObject.cs: 312225ad2b80b93381977a206041e372 -> 4884d291e1fd234b2e8987ac477a4c1e
+  custom:scripting/monoscript/fileName/kanbanController.cs: 0beab0e0d7ea39c245d2dd20c71b00b3 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeBase.cs: 6078167b471cf5dd2c505734501116bc -> 5b3e1dfbc4070397f7e81d6a1d87f2aa
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/HomeGameObjectManager.cs: 9066ecdcde7990a6a191ad46b1b98505 -> 3e130cee87f99bdd40e563b836331ebb
+  custom:scripting/monoscript/fileName/FlagEnumAttribute.cs: 953b9f0dce3220fa95ce950df5750dc2 -> f9c53708b2edee265e6d7f7be304b71c
+  custom:scripting/monoscript/fileName/WateverVolumeFloater.cs: f5baaa2cb2b9ffe4f7cdd44997796d50 -> 6b0e4e4a788d1123c17d4bf1fdee4df6
+  custom:scripting/monoscript/fileName/jumPlateController.cs: 7ce5074295808d471b18329f0400ca94 -> 
+  custom:scripting/monoscript/fileName/SelfRotation.cs: 6f163a43d6cf58ed55d3d2a6e9c0f200 -> 7e246db65b3b22dac5677a97904cfe89
+  custom:scripting/monoscript/fileName/FadeController.cs: 7a9ce674383cacf573b010219c5e8c1f -> ffaf7436b7e8375205f5e33569dc4bd8
+  custom:scripting/monoscript/fileName/EnemyPlane.cs: 362e5f00b165b8e1bb50a83e5edeef8e -> 904a741335ab92d2b868db42981cd164
+  custom:scripting/monoscript/fileName/FloodingManager.cs: 0355da4750d852af9b30eeffe6fdba0b -> bb2f1e3f9f4ac92230aa3ce3799a57e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CustomSceneManager.cs: c10e412c3811fbb9318979ad06736d6b -> 1b7fd7839353e3162cde6aa6074ee6f5
+  custom:scripting/monoscript/fileName/HomePlayerController.cs: ad26dad37f5371b4a323257ed86b89a4 -> 983e1af44f43bf74fe0548331aa3a307
+  custom:scripting/monoscript/fileName/EnemyBird.cs: 9ea2fe694d0a77d82422883b02371188 -> 8891e7c0c4824afc3a621ab47e019224
+  custom:scripting/monoscript/fileName/WaterVolumeBox.cs: 6dc25fc0bc3d8090d67b574588c57fd8 -> f4c4fe2252d7747d9ce426fae9a6c73b
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.661 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.915 seconds
+Domain Reload Profiling: 2570ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (402ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (64ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1915ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (804ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (579ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 8.81 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.8 MB). Loaded Objects now: 7540.
+Memory consumption went from 247.1 MB to 245.3 MB.
+Total: 4.630200 ms (FindLiveObjects: 0.589100 ms CreateObjectMapping: 0.227300 ms MarkObjects: 3.350400 ms  DeleteObjects: 0.462400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/groundPlaneGenerator.cs: 824cfbfd90c80682e3c38208b6a88b94 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TreeGrowingGameManager.cs: b335c53bcb5e26fb2bd6f7eafab6449b -> 37c97f8a22737d5a3bf204f13270e307
+  custom:scripting/monoscript/fileName/AudioManager.cs: 0aef3caba4c1c1b0bc8bd1dca2fef31d -> e8310be4479956b7ccf5d41d9f0f6e53
+  custom:scripting/monoscript/fileName/WebCameraDisplay.cs: 6cb1e51b2fb3bb7d46ceff914ec07a98 -> 5d07dedf3f970537853d06cf192d9494
+  custom:scripting/monoscript/fileName/FlagEnumAttributeDrawer.cs: 671fa9a68f9f21f6b34d51277df4f5fd -> 39756168e5c5659b1ba6cf525af8e4a7
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/StageController.cs: 51a584245a94b36bf95ec5aa6f143806 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:scripting/monoscript/fileName/3DPlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: 631518805e498f605340989c6255f0ae -> bd8be3102d90dc7625e90c699b9ce143
+  custom:scripting/monoscript/fileName/EnemyUFO.cs: c9fbb69d8539baf099226189205e18b8 -> 93e1c5f136b3fd1602be2bb19f523ccd
+  custom:scripting/monoscript/fileName/TreeGrowEnemy.cs: 7b17fd7e35c1a809be7fbd8a33a5eb8e -> 3a73412f44bfbad99110aacf21e20bd0
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: e5660c81aeb5669d6f09aa75f88fb408 -> 78e2e6573322fcc55af450266306de6e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeHelper.cs: 471412d4702a9bd89b7b2c8520971a1b -> a4d58c8c0aa0d81ba3ca1f8f244f264e
+  custom:scripting/monoscript/fileName/CoinGetter.cs: 3372e4496adf0fea0a315463a38bd79c -> 3d6c24f5fd953e028cdb31f9e1fa5bf9
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GroundPlaneGenerator.cs: 78760a5eda0f63e89c8261e046fa939a -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: 9641240c5357cee7cf3b5385d31793ad -> ec7e447c8320099965c5f3bd81473d66
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/beltController.cs: d5447ad7e4db5ce9bb31a7848c0ea036 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 108536695f985388fc6f78853054d2b3 -> 8c6b9e3b254a33405634ce9e6052deae
+  custom:scripting/monoscript/fileName/ExploreGameGoalDimentionalLift.cs: a5ab02bb1ce18606893bb1d70e263da7 -> f04c67676818c1a9de96758ab0f7c8f1
+  custom:scripting/monoscript/fileName/ExploreGameManager.cs: 0d4d24d8aa8fa59eb3a64211a44ccc2e -> a5b421e8fdf625c569c2b93b60fe8386
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WaterVolumeTransforms.cs: c2435ef1e27b377f8545d22e3effcd7c -> 7e7ff907458764574f8b4636d8406e3e
+  custom:scripting/monoscript/fileName/CheckPointController.cs: 21366e98fd2751c5950c768f314907ec -> e5355b76b39e4561031b9e28ef761ebf
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/SingletonObject.cs: 312225ad2b80b93381977a206041e372 -> 4884d291e1fd234b2e8987ac477a4c1e
+  custom:scripting/monoscript/fileName/kanbanController.cs: 0beab0e0d7ea39c245d2dd20c71b00b3 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeBase.cs: 6078167b471cf5dd2c505734501116bc -> 5b3e1dfbc4070397f7e81d6a1d87f2aa
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/HomeGameObjectManager.cs: 9066ecdcde7990a6a191ad46b1b98505 -> 3e130cee87f99bdd40e563b836331ebb
+  custom:scripting/monoscript/fileName/FlagEnumAttribute.cs: 953b9f0dce3220fa95ce950df5750dc2 -> f9c53708b2edee265e6d7f7be304b71c
+  custom:scripting/monoscript/fileName/WateverVolumeFloater.cs: f5baaa2cb2b9ffe4f7cdd44997796d50 -> 6b0e4e4a788d1123c17d4bf1fdee4df6
+  custom:scripting/monoscript/fileName/jumPlateController.cs: 7ce5074295808d471b18329f0400ca94 -> 
+  custom:scripting/monoscript/fileName/SelfRotation.cs: 6f163a43d6cf58ed55d3d2a6e9c0f200 -> 7e246db65b3b22dac5677a97904cfe89
+  custom:scripting/monoscript/fileName/FadeController.cs: 7a9ce674383cacf573b010219c5e8c1f -> ffaf7436b7e8375205f5e33569dc4bd8
+  custom:scripting/monoscript/fileName/EnemyPlane.cs: 362e5f00b165b8e1bb50a83e5edeef8e -> 904a741335ab92d2b868db42981cd164
+  custom:scripting/monoscript/fileName/FloodingManager.cs: 0355da4750d852af9b30eeffe6fdba0b -> bb2f1e3f9f4ac92230aa3ce3799a57e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CustomSceneManager.cs: c10e412c3811fbb9318979ad06736d6b -> 1b7fd7839353e3162cde6aa6074ee6f5
+  custom:scripting/monoscript/fileName/HomePlayerController.cs: ad26dad37f5371b4a323257ed86b89a4 -> 983e1af44f43bf74fe0548331aa3a307
+  custom:scripting/monoscript/fileName/EnemyBird.cs: 9ea2fe694d0a77d82422883b02371188 -> 8891e7c0c4824afc3a621ab47e019224
+  custom:scripting/monoscript/fileName/WaterVolumeBox.cs: 6dc25fc0bc3d8090d67b574588c57fd8 -> f4c4fe2252d7747d9ce426fae9a6c73b
+========================================================================
+Received Import Request.
+  Time since last request: 35.200990 seconds.
+  path: Assets/Project/Program/HomeScene/Scripts/HomePlayerController.cs
+  artifactKey: Guid(d88d0e294bdaeba4ca88a832406fa363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Program/HomeScene/Scripts/HomePlayerController.cs using Guid(d88d0e294bdaeba4ca88a832406fa363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '86b12d24c5a0526e049e0828ce55521a') in 0.012268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.672186 seconds.
+  path: Assets/Project/Program/HomeScene/Scripts/SummonController.cs
+  artifactKey: Guid(72a3ce479635c4e488bea483515e8d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Program/HomeScene/Scripts/SummonController.cs using Guid(72a3ce479635c4e488bea483515e8d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '92077c70ba2d4a6b887286957568fcb1') in 0.000671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.715 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.848 seconds
+Domain Reload Profiling: 2557ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (418ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (55ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1848ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (829ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (567ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 10.11 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.8 MB). Loaded Objects now: 7557.
+Memory consumption went from 247.1 MB to 245.3 MB.
+Total: 7.451200 ms (FindLiveObjects: 0.785600 ms CreateObjectMapping: 0.320700 ms MarkObjects: 5.676300 ms  DeleteObjects: 0.666000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/groundPlaneGenerator.cs: 824cfbfd90c80682e3c38208b6a88b94 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TreeGrowingGameManager.cs: b335c53bcb5e26fb2bd6f7eafab6449b -> 37c97f8a22737d5a3bf204f13270e307
+  custom:scripting/monoscript/fileName/AudioManager.cs: 0aef3caba4c1c1b0bc8bd1dca2fef31d -> e8310be4479956b7ccf5d41d9f0f6e53
+  custom:scripting/monoscript/fileName/WebCameraDisplay.cs: 6cb1e51b2fb3bb7d46ceff914ec07a98 -> 5d07dedf3f970537853d06cf192d9494
+  custom:scripting/monoscript/fileName/FlagEnumAttributeDrawer.cs: 671fa9a68f9f21f6b34d51277df4f5fd -> 39756168e5c5659b1ba6cf525af8e4a7
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/StageController.cs: 51a584245a94b36bf95ec5aa6f143806 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:scripting/monoscript/fileName/3DPlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: 631518805e498f605340989c6255f0ae -> bd8be3102d90dc7625e90c699b9ce143
+  custom:scripting/monoscript/fileName/EnemyUFO.cs: c9fbb69d8539baf099226189205e18b8 -> 93e1c5f136b3fd1602be2bb19f523ccd
+  custom:scripting/monoscript/fileName/TreeGrowEnemy.cs: 7b17fd7e35c1a809be7fbd8a33a5eb8e -> 3a73412f44bfbad99110aacf21e20bd0
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: e5660c81aeb5669d6f09aa75f88fb408 -> 78e2e6573322fcc55af450266306de6e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeHelper.cs: 471412d4702a9bd89b7b2c8520971a1b -> a4d58c8c0aa0d81ba3ca1f8f244f264e
+  custom:scripting/monoscript/fileName/CoinGetter.cs: 3372e4496adf0fea0a315463a38bd79c -> 3d6c24f5fd953e028cdb31f9e1fa5bf9
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GroundPlaneGenerator.cs: 78760a5eda0f63e89c8261e046fa939a -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: 9641240c5357cee7cf3b5385d31793ad -> ec7e447c8320099965c5f3bd81473d66
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/beltController.cs: d5447ad7e4db5ce9bb31a7848c0ea036 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 108536695f985388fc6f78853054d2b3 -> 8c6b9e3b254a33405634ce9e6052deae
+  custom:scripting/monoscript/fileName/ExploreGameGoalDimentionalLift.cs: a5ab02bb1ce18606893bb1d70e263da7 -> f04c67676818c1a9de96758ab0f7c8f1
+  custom:scripting/monoscript/fileName/ExploreGameManager.cs: 0d4d24d8aa8fa59eb3a64211a44ccc2e -> a5b421e8fdf625c569c2b93b60fe8386
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WaterVolumeTransforms.cs: c2435ef1e27b377f8545d22e3effcd7c -> 7e7ff907458764574f8b4636d8406e3e
+  custom:scripting/monoscript/fileName/CheckPointController.cs: 21366e98fd2751c5950c768f314907ec -> e5355b76b39e4561031b9e28ef761ebf
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/SingletonObject.cs: 312225ad2b80b93381977a206041e372 -> 4884d291e1fd234b2e8987ac477a4c1e
+  custom:scripting/monoscript/fileName/kanbanController.cs: 0beab0e0d7ea39c245d2dd20c71b00b3 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeBase.cs: 6078167b471cf5dd2c505734501116bc -> 5b3e1dfbc4070397f7e81d6a1d87f2aa
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/HomeGameObjectManager.cs: 9066ecdcde7990a6a191ad46b1b98505 -> 3e130cee87f99bdd40e563b836331ebb
+  custom:scripting/monoscript/fileName/FlagEnumAttribute.cs: 953b9f0dce3220fa95ce950df5750dc2 -> f9c53708b2edee265e6d7f7be304b71c
+  custom:scripting/monoscript/fileName/WateverVolumeFloater.cs: f5baaa2cb2b9ffe4f7cdd44997796d50 -> 6b0e4e4a788d1123c17d4bf1fdee4df6
+  custom:scripting/monoscript/fileName/jumPlateController.cs: 7ce5074295808d471b18329f0400ca94 -> 
+  custom:scripting/monoscript/fileName/SelfRotation.cs: 6f163a43d6cf58ed55d3d2a6e9c0f200 -> 7e246db65b3b22dac5677a97904cfe89
+  custom:scripting/monoscript/fileName/FadeController.cs: 7a9ce674383cacf573b010219c5e8c1f -> ffaf7436b7e8375205f5e33569dc4bd8
+  custom:scripting/monoscript/fileName/EnemyPlane.cs: 362e5f00b165b8e1bb50a83e5edeef8e -> 904a741335ab92d2b868db42981cd164
+  custom:scripting/monoscript/fileName/FloodingManager.cs: 0355da4750d852af9b30eeffe6fdba0b -> bb2f1e3f9f4ac92230aa3ce3799a57e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CustomSceneManager.cs: c10e412c3811fbb9318979ad06736d6b -> 1b7fd7839353e3162cde6aa6074ee6f5
+  custom:scripting/monoscript/fileName/HomePlayerController.cs: ad26dad37f5371b4a323257ed86b89a4 -> 983e1af44f43bf74fe0548331aa3a307
+  custom:scripting/monoscript/fileName/EnemyBird.cs: 9ea2fe694d0a77d82422883b02371188 -> 8891e7c0c4824afc3a621ab47e019224
+  custom:scripting/monoscript/fileName/WaterVolumeBox.cs: 6dc25fc0bc3d8090d67b574588c57fd8 -> f4c4fe2252d7747d9ce426fae9a6c73b
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.715 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.937 seconds
+Domain Reload Profiling: 2650ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (407ms)
+		LoadAssemblies (453ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (61ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1938ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (908ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (664ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 7.17 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.8 MB). Loaded Objects now: 7574.
+Memory consumption went from 247.1 MB to 245.3 MB.
+Total: 5.959600 ms (FindLiveObjects: 0.705000 ms CreateObjectMapping: 0.429200 ms MarkObjects: 4.293600 ms  DeleteObjects: 0.530000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/groundPlaneGenerator.cs: 824cfbfd90c80682e3c38208b6a88b94 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TreeGrowingGameManager.cs: b335c53bcb5e26fb2bd6f7eafab6449b -> 37c97f8a22737d5a3bf204f13270e307
+  custom:scripting/monoscript/fileName/AudioManager.cs: 0aef3caba4c1c1b0bc8bd1dca2fef31d -> e8310be4479956b7ccf5d41d9f0f6e53
+  custom:scripting/monoscript/fileName/WebCameraDisplay.cs: 6cb1e51b2fb3bb7d46ceff914ec07a98 -> 5d07dedf3f970537853d06cf192d9494
+  custom:scripting/monoscript/fileName/FlagEnumAttributeDrawer.cs: 671fa9a68f9f21f6b34d51277df4f5fd -> 39756168e5c5659b1ba6cf525af8e4a7
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/StageController.cs: 51a584245a94b36bf95ec5aa6f143806 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:scripting/monoscript/fileName/3DPlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: 631518805e498f605340989c6255f0ae -> bd8be3102d90dc7625e90c699b9ce143
+  custom:scripting/monoscript/fileName/EnemyUFO.cs: c9fbb69d8539baf099226189205e18b8 -> 93e1c5f136b3fd1602be2bb19f523ccd
+  custom:scripting/monoscript/fileName/TreeGrowEnemy.cs: 7b17fd7e35c1a809be7fbd8a33a5eb8e -> 3a73412f44bfbad99110aacf21e20bd0
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: e5660c81aeb5669d6f09aa75f88fb408 -> 78e2e6573322fcc55af450266306de6e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeHelper.cs: 471412d4702a9bd89b7b2c8520971a1b -> a4d58c8c0aa0d81ba3ca1f8f244f264e
+  custom:scripting/monoscript/fileName/CoinGetter.cs: 3372e4496adf0fea0a315463a38bd79c -> 3d6c24f5fd953e028cdb31f9e1fa5bf9
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HomeWarpHole.cs: a67596eea0d68eeca43f620a86ae975e -> 57a1b8d617cf9b9b9b0c3c235897a22a
+  custom:scripting/monoscript/fileName/GroundPlaneGenerator.cs: 78760a5eda0f63e89c8261e046fa939a -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: 9641240c5357cee7cf3b5385d31793ad -> ec7e447c8320099965c5f3bd81473d66
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/beltController.cs: d5447ad7e4db5ce9bb31a7848c0ea036 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 044d038b54953c9ab2f4e76c102d9a7d -> 8c6b9e3b254a33405634ce9e6052deae
+  custom:scripting/monoscript/fileName/ExploreGameGoalDimentionalLift.cs: a5ab02bb1ce18606893bb1d70e263da7 -> f04c67676818c1a9de96758ab0f7c8f1
+  custom:scripting/monoscript/fileName/ExploreGameManager.cs: 0d4d24d8aa8fa59eb3a64211a44ccc2e -> a5b421e8fdf625c569c2b93b60fe8386
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WaterVolumeTransforms.cs: c2435ef1e27b377f8545d22e3effcd7c -> 7e7ff907458764574f8b4636d8406e3e
+  custom:scripting/monoscript/fileName/CheckPointController.cs: 21366e98fd2751c5950c768f314907ec -> e5355b76b39e4561031b9e28ef761ebf
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/SingletonObject.cs: 312225ad2b80b93381977a206041e372 -> 4884d291e1fd234b2e8987ac477a4c1e
+  custom:scripting/monoscript/fileName/kanbanController.cs: 0beab0e0d7ea39c245d2dd20c71b00b3 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeBase.cs: 6078167b471cf5dd2c505734501116bc -> 5b3e1dfbc4070397f7e81d6a1d87f2aa
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/HomeGameObjectManager.cs: 9066ecdcde7990a6a191ad46b1b98505 -> 3e130cee87f99bdd40e563b836331ebb
+  custom:scripting/monoscript/fileName/FlagEnumAttribute.cs: 953b9f0dce3220fa95ce950df5750dc2 -> f9c53708b2edee265e6d7f7be304b71c
+  custom:scripting/monoscript/fileName/WateverVolumeFloater.cs: f5baaa2cb2b9ffe4f7cdd44997796d50 -> 6b0e4e4a788d1123c17d4bf1fdee4df6
+  custom:scripting/monoscript/fileName/jumPlateController.cs: 7ce5074295808d471b18329f0400ca94 -> 
+  custom:scripting/monoscript/fileName/SelfRotation.cs: 6f163a43d6cf58ed55d3d2a6e9c0f200 -> 7e246db65b3b22dac5677a97904cfe89
+  custom:scripting/monoscript/fileName/FadeController.cs: 7a9ce674383cacf573b010219c5e8c1f -> ffaf7436b7e8375205f5e33569dc4bd8
+  custom:scripting/monoscript/fileName/EnemyPlane.cs: 362e5f00b165b8e1bb50a83e5edeef8e -> 904a741335ab92d2b868db42981cd164
+  custom:scripting/monoscript/fileName/FloodingManager.cs: 0355da4750d852af9b30eeffe6fdba0b -> bb2f1e3f9f4ac92230aa3ce3799a57e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CustomSceneManager.cs: c10e412c3811fbb9318979ad06736d6b -> 1b7fd7839353e3162cde6aa6074ee6f5
+  custom:scripting/monoscript/fileName/HomePlayerController.cs: ad26dad37f5371b4a323257ed86b89a4 -> 983e1af44f43bf74fe0548331aa3a307
+  custom:scripting/monoscript/fileName/EnemyBird.cs: 9ea2fe694d0a77d82422883b02371188 -> 8891e7c0c4824afc3a621ab47e019224
+  custom:scripting/monoscript/fileName/WaterVolumeBox.cs: 6dc25fc0bc3d8090d67b574588c57fd8 -> f4c4fe2252d7747d9ce426fae9a6c73b
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.675 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.847 seconds
+Domain Reload Profiling: 2519ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (403ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (67ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1847ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (800ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (570ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 7.86 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.8 MB). Loaded Objects now: 7591.
+Memory consumption went from 247.1 MB to 245.3 MB.
+Total: 5.246800 ms (FindLiveObjects: 0.922400 ms CreateObjectMapping: 0.355800 ms MarkObjects: 3.474400 ms  DeleteObjects: 0.493000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/groundPlaneGenerator.cs: 824cfbfd90c80682e3c38208b6a88b94 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TreeGrowingGameManager.cs: b335c53bcb5e26fb2bd6f7eafab6449b -> 37c97f8a22737d5a3bf204f13270e307
+  custom:scripting/monoscript/fileName/AudioManager.cs: 0aef3caba4c1c1b0bc8bd1dca2fef31d -> e8310be4479956b7ccf5d41d9f0f6e53
+  custom:scripting/monoscript/fileName/WebCameraDisplay.cs: 6cb1e51b2fb3bb7d46ceff914ec07a98 -> 5d07dedf3f970537853d06cf192d9494
+  custom:scripting/monoscript/fileName/FlagEnumAttributeDrawer.cs: 671fa9a68f9f21f6b34d51277df4f5fd -> 39756168e5c5659b1ba6cf525af8e4a7
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/StageController.cs: 51a584245a94b36bf95ec5aa6f143806 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:scripting/monoscript/fileName/3DPlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: 631518805e498f605340989c6255f0ae -> bd8be3102d90dc7625e90c699b9ce143
+  custom:scripting/monoscript/fileName/EnemyUFO.cs: c9fbb69d8539baf099226189205e18b8 -> 93e1c5f136b3fd1602be2bb19f523ccd
+  custom:scripting/monoscript/fileName/TreeGrowEnemy.cs: 7b17fd7e35c1a809be7fbd8a33a5eb8e -> 3a73412f44bfbad99110aacf21e20bd0
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: e5660c81aeb5669d6f09aa75f88fb408 -> 78e2e6573322fcc55af450266306de6e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeHelper.cs: 471412d4702a9bd89b7b2c8520971a1b -> a4d58c8c0aa0d81ba3ca1f8f244f264e
+  custom:scripting/monoscript/fileName/CoinGetter.cs: 3372e4496adf0fea0a315463a38bd79c -> 3d6c24f5fd953e028cdb31f9e1fa5bf9
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HomeWarpHole.cs: a67596eea0d68eeca43f620a86ae975e -> 57a1b8d617cf9b9b9b0c3c235897a22a
+  custom:scripting/monoscript/fileName/GroundPlaneGenerator.cs: 78760a5eda0f63e89c8261e046fa939a -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: 9641240c5357cee7cf3b5385d31793ad -> ec7e447c8320099965c5f3bd81473d66
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/beltController.cs: d5447ad7e4db5ce9bb31a7848c0ea036 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 044d038b54953c9ab2f4e76c102d9a7d -> 8c6b9e3b254a33405634ce9e6052deae
+  custom:scripting/monoscript/fileName/ExploreGameGoalDimentionalLift.cs: a5ab02bb1ce18606893bb1d70e263da7 -> f04c67676818c1a9de96758ab0f7c8f1
+  custom:scripting/monoscript/fileName/ExploreGameManager.cs: 0d4d24d8aa8fa59eb3a64211a44ccc2e -> a5b421e8fdf625c569c2b93b60fe8386
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WaterVolumeTransforms.cs: c2435ef1e27b377f8545d22e3effcd7c -> 7e7ff907458764574f8b4636d8406e3e
+  custom:scripting/monoscript/fileName/CheckPointController.cs: 21366e98fd2751c5950c768f314907ec -> e5355b76b39e4561031b9e28ef761ebf
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/SingletonObject.cs: 312225ad2b80b93381977a206041e372 -> 4884d291e1fd234b2e8987ac477a4c1e
+  custom:scripting/monoscript/fileName/kanbanController.cs: 0beab0e0d7ea39c245d2dd20c71b00b3 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeBase.cs: 6078167b471cf5dd2c505734501116bc -> 5b3e1dfbc4070397f7e81d6a1d87f2aa
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/HomeGameObjectManager.cs: 9066ecdcde7990a6a191ad46b1b98505 -> 3e130cee87f99bdd40e563b836331ebb
+  custom:scripting/monoscript/fileName/FlagEnumAttribute.cs: 953b9f0dce3220fa95ce950df5750dc2 -> f9c53708b2edee265e6d7f7be304b71c
+  custom:scripting/monoscript/fileName/WateverVolumeFloater.cs: f5baaa2cb2b9ffe4f7cdd44997796d50 -> 6b0e4e4a788d1123c17d4bf1fdee4df6
+  custom:scripting/monoscript/fileName/jumPlateController.cs: 7ce5074295808d471b18329f0400ca94 -> 
+  custom:scripting/monoscript/fileName/SelfRotation.cs: 6f163a43d6cf58ed55d3d2a6e9c0f200 -> 7e246db65b3b22dac5677a97904cfe89
+  custom:scripting/monoscript/fileName/FadeController.cs: 7a9ce674383cacf573b010219c5e8c1f -> ffaf7436b7e8375205f5e33569dc4bd8
+  custom:scripting/monoscript/fileName/EnemyPlane.cs: 362e5f00b165b8e1bb50a83e5edeef8e -> 904a741335ab92d2b868db42981cd164
+  custom:scripting/monoscript/fileName/FloodingManager.cs: 0355da4750d852af9b30eeffe6fdba0b -> bb2f1e3f9f4ac92230aa3ce3799a57e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CustomSceneManager.cs: c10e412c3811fbb9318979ad06736d6b -> 1b7fd7839353e3162cde6aa6074ee6f5
+  custom:scripting/monoscript/fileName/HomePlayerController.cs: ad26dad37f5371b4a323257ed86b89a4 -> 983e1af44f43bf74fe0548331aa3a307
+  custom:scripting/monoscript/fileName/EnemyBird.cs: 9ea2fe694d0a77d82422883b02371188 -> 8891e7c0c4824afc3a621ab47e019224
+  custom:scripting/monoscript/fileName/WaterVolumeBox.cs: 6dc25fc0bc3d8090d67b574588c57fd8 -> f4c4fe2252d7747d9ce426fae9a6c73b
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.39 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (1.7 MB). Loaded Objects now: 7591.
+Memory consumption went from 143.1 MB to 141.3 MB.
+Total: 6.460000 ms (FindLiveObjects: 0.596700 ms CreateObjectMapping: 0.352700 ms MarkObjects: 4.938800 ms  DeleteObjects: 0.570900 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/groundPlaneGenerator.cs: 824cfbfd90c80682e3c38208b6a88b94 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TreeGrowingGameManager.cs: b335c53bcb5e26fb2bd6f7eafab6449b -> 37c97f8a22737d5a3bf204f13270e307
+  custom:scripting/monoscript/fileName/AudioManager.cs: 0aef3caba4c1c1b0bc8bd1dca2fef31d -> e8310be4479956b7ccf5d41d9f0f6e53
+  custom:scripting/monoscript/fileName/WebCameraDisplay.cs: 6cb1e51b2fb3bb7d46ceff914ec07a98 -> 5d07dedf3f970537853d06cf192d9494
+  custom:scripting/monoscript/fileName/FlagEnumAttributeDrawer.cs: 671fa9a68f9f21f6b34d51277df4f5fd -> 39756168e5c5659b1ba6cf525af8e4a7
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/StageController.cs: 51a584245a94b36bf95ec5aa6f143806 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:scripting/monoscript/fileName/3DPlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: 631518805e498f605340989c6255f0ae -> bd8be3102d90dc7625e90c699b9ce143
+  custom:scripting/monoscript/fileName/EnemyUFO.cs: c9fbb69d8539baf099226189205e18b8 -> 93e1c5f136b3fd1602be2bb19f523ccd
+  custom:scripting/monoscript/fileName/TreeGrowEnemy.cs: 7b17fd7e35c1a809be7fbd8a33a5eb8e -> 3a73412f44bfbad99110aacf21e20bd0
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: e5660c81aeb5669d6f09aa75f88fb408 -> 78e2e6573322fcc55af450266306de6e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeHelper.cs: 471412d4702a9bd89b7b2c8520971a1b -> a4d58c8c0aa0d81ba3ca1f8f244f264e
+  custom:scripting/monoscript/fileName/CoinGetter.cs: 3372e4496adf0fea0a315463a38bd79c -> 3d6c24f5fd953e028cdb31f9e1fa5bf9
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HomeWarpHole.cs: a67596eea0d68eeca43f620a86ae975e -> 57a1b8d617cf9b9b9b0c3c235897a22a
+  custom:scripting/monoscript/fileName/GroundPlaneGenerator.cs: 78760a5eda0f63e89c8261e046fa939a -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: 9641240c5357cee7cf3b5385d31793ad -> ec7e447c8320099965c5f3bd81473d66
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/beltController.cs: d5447ad7e4db5ce9bb31a7848c0ea036 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 044d038b54953c9ab2f4e76c102d9a7d -> 8c6b9e3b254a33405634ce9e6052deae
+  custom:scripting/monoscript/fileName/ExploreGameGoalDimentionalLift.cs: a5ab02bb1ce18606893bb1d70e263da7 -> f04c67676818c1a9de96758ab0f7c8f1
+  custom:scripting/monoscript/fileName/ExploreGameManager.cs: 0d4d24d8aa8fa59eb3a64211a44ccc2e -> a5b421e8fdf625c569c2b93b60fe8386
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WaterVolumeTransforms.cs: c2435ef1e27b377f8545d22e3effcd7c -> 7e7ff907458764574f8b4636d8406e3e
+  custom:scripting/monoscript/fileName/CheckPointController.cs: 21366e98fd2751c5950c768f314907ec -> e5355b76b39e4561031b9e28ef761ebf
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/SingletonObject.cs: 312225ad2b80b93381977a206041e372 -> 4884d291e1fd234b2e8987ac477a4c1e
+  custom:scripting/monoscript/fileName/kanbanController.cs: 0beab0e0d7ea39c245d2dd20c71b00b3 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/WaterVolumeBase.cs: 6078167b471cf5dd2c505734501116bc -> 5b3e1dfbc4070397f7e81d6a1d87f2aa
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/HomeGameObjectManager.cs: 9066ecdcde7990a6a191ad46b1b98505 -> 3e130cee87f99bdd40e563b836331ebb
+  custom:scripting/monoscript/fileName/FlagEnumAttribute.cs: 953b9f0dce3220fa95ce950df5750dc2 -> f9c53708b2edee265e6d7f7be304b71c
+  custom:scripting/monoscript/fileName/WateverVolumeFloater.cs: f5baaa2cb2b9ffe4f7cdd44997796d50 -> 6b0e4e4a788d1123c17d4bf1fdee4df6
+  custom:scripting/monoscript/fileName/jumPlateController.cs: 7ce5074295808d471b18329f0400ca94 -> 
+  custom:scripting/monoscript/fileName/SelfRotation.cs: 6f163a43d6cf58ed55d3d2a6e9c0f200 -> 7e246db65b3b22dac5677a97904cfe89
+  custom:scripting/monoscript/fileName/FadeController.cs: 7a9ce674383cacf573b010219c5e8c1f -> ffaf7436b7e8375205f5e33569dc4bd8
+  custom:scripting/monoscript/fileName/EnemyPlane.cs: 362e5f00b165b8e1bb50a83e5edeef8e -> 904a741335ab92d2b868db42981cd164
+  custom:scripting/monoscript/fileName/FloodingManager.cs: 0355da4750d852af9b30eeffe6fdba0b -> bb2f1e3f9f4ac92230aa3ce3799a57e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CustomSceneManager.cs: c10e412c3811fbb9318979ad06736d6b -> 1b7fd7839353e3162cde6aa6074ee6f5
+  custom:scripting/monoscript/fileName/HomePlayerController.cs: ad26dad37f5371b4a323257ed86b89a4 -> 983e1af44f43bf74fe0548331aa3a307
+  custom:scripting/monoscript/fileName/EnemyBird.cs: 9ea2fe694d0a77d82422883b02371188 -> 8891e7c0c4824afc3a621ab47e019224
+  custom:scripting/monoscript/fileName/WaterVolumeBox.cs: 6dc25fc0bc3d8090d67b574588c57fd8 -> f4c4fe2252d7747d9ce426fae9a6c73b
+========================================================================
+Received Import Request.
+  Time since last request: 993.131304 seconds.
+  path: Assets/Project/Program/TreeGameScene/Scripts/Enemyes/EnemyUFO.cs
+  artifactKey: Guid(16f8edf50d4be0d42ac1b9551f343201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Program/TreeGameScene/Scripts/Enemyes/EnemyUFO.cs using Guid(16f8edf50d4be0d42ac1b9551f343201) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0c351259e4d78d53f63520043e06d40a') in 0.011799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.313272 seconds.
+  path: Assets/Project/Program/TreeGameScene/Prefabs/EnemyUFO.prefab
+  artifactKey: Guid(83e2cba3f5c05014799b248432ac7382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Program/TreeGameScene/Prefabs/EnemyUFO.prefab using Guid(83e2cba3f5c05014799b248432ac7382) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a42ea9161e80ad51bac2aaf10510b985') in 0.001138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
