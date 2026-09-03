@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#050406">
+  <meta name="description" content="大きな赤い球から小さな球へ、親子だけを線で結びながら六方向へ成長するインタラクティブ3D作品。">
+  <title>RED ±XYZ</title>
+  <style>
+    html,body{margin:0;width:100%;height:100%;background:#050406;color:#fff5f6;font-family:"Helvetica Neue","Noto Sans JP","Yu Gothic UI",sans-serif;overflow:hidden}
+    body{display:grid;place-items:center}
+    #boot{font-size:12px;letter-spacing:.16em;opacity:.65}
+  </style>
+</head>
+<body>
+  <div id="boot">RED ±XYZ を起動中…</div>
+  <script>
+    (async()=>{
+      const boot=document.getElementById('boot');
+      try{
+        if(typeof DecompressionStream==='undefined') throw new Error('DecompressionStream unsupported');
+        const paths=['payload/0.txt','payload/1.txt','payload/2.txt','payload/3.txt','payload/4.txt'];
+        const parts=await Promise.all(paths.map(async path=>{
+          const response=await fetch(path,{cache:'force-cache'});
+          if(!response.ok) throw new Error(`payload ${response.status}`);
+          return response.text();
+        }));
+        const compressed=Uint8Array.from(atob(parts.join('')),char=>char.charCodeAt(0));
+        const stream=new Blob([compressed]).stream().pipeThrough(new DecompressionStream('gzip'));
+        const html=await new Response(stream).text();
+        document.open();document.write(html);document.close();
+      }catch(error){
+        console.error(error);
+        boot.textContent='作品を起動できませんでした。Chrome / Edge / Safari / Firefox の最新版で再度お試しください。';
+      }
+    })();
+  </script>
+</body>
+</html>
